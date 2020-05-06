@@ -35,11 +35,13 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
+
+# JaCoCo
 - task: DotNetCoreCLI@2
   displayName: 'dotnet test'
   inputs:
     command: 'test'
-    arguments: '--configuration $(buildConfiguration) /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=$(Build.SourcesDirectory)/TestResults/Coverage/'
+    arguments: '--configuration $(buildConfiguration) /p:CollectCoverage=true /p:CoverletOutputFormat=JaCoCo /p:CoverletOutput=$(Build.SourcesDirectory)/TestResults/Coverage/'
     publishTestResults: true
     #nobuild: true
     projects: '**/test-library/*.csproj'
@@ -47,5 +49,22 @@ steps:
 - task: PublishCodeCoverageResults@1
   displayName: 'Publish code coverage report'
   inputs:
-    codeCoverageTool: 'Cobertura'
-    summaryFileLocation: '$(Build.SourcesDirectory)/**/coverage.cobertura.xml'
+    codeCoverageTool: 'JaCoCo'
+    summaryFileLocation: '$(Build.SourcesDirectory)/**/coverage.jacoco.xml'
+
+
+
+# - task: DotNetCoreCLI@2
+#   displayName: 'dotnet test'
+#   inputs:
+#     command: 'test'
+#     arguments: '--configuration $(buildConfiguration) /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=$(Build.SourcesDirectory)/TestResults/Coverage/'
+#     publishTestResults: true
+#     #nobuild: true
+#     projects: '**/test-library/*.csproj'
+
+# - task: PublishCodeCoverageResults@1
+#   displayName: 'Publish code coverage report'
+#   inputs:
+#     codeCoverageTool: 'Cobertura'
+#     summaryFileLocation: '$(Build.SourcesDirectory)/**/coverage.cobertura.xml'
