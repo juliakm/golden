@@ -40,7 +40,7 @@ steps:
   displayName: 'dotnet test'
   inputs:
     command: test
-    projects: '**/*.Tests/*.csproj'
+    projects: '**/test-library/*.csproj'
 
 
 # - task: VSTest@2
