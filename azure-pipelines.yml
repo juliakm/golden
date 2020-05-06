@@ -64,7 +64,6 @@ steps:
     #nobuild: true
     projects: '**/test-library/*.csproj'
 
-steps:
 - task: DotNetCoreCLI@2
   displayName: 'dotnet publish'
   inputs:
