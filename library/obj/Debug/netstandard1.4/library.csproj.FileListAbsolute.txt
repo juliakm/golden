@@ -1,0 +1,8 @@
+/Users/juliakm/Code/golden/library/bin/Debug/netstandard1.4/library.deps.json
+/Users/juliakm/Code/golden/library/bin/Debug/netstandard1.4/library.dll
+/Users/juliakm/Code/golden/library/bin/Debug/netstandard1.4/library.pdb
+/Users/juliakm/Code/golden/library/obj/Debug/netstandard1.4/library.csprojAssemblyReference.cache
+/Users/juliakm/Code/golden/library/obj/Debug/netstandard1.4/library.AssemblyInfoInputs.cache
+/Users/juliakm/Code/golden/library/obj/Debug/netstandard1.4/library.AssemblyInfo.cs
+/Users/juliakm/Code/golden/library/obj/Debug/netstandard1.4/library.dll
+/Users/juliakm/Code/golden/library/obj/Debug/netstandard1.4/library.pdb

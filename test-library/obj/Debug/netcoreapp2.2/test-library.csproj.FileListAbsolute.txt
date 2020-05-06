@@ -1,0 +1,16 @@
+/Users/juliakm/Code/golden/test-library/bin/Debug/netcoreapp2.2/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/juliakm/Code/golden/test-library/bin/Debug/netcoreapp2.2/xunit.runner.reporters.netcoreapp10.dll
+/Users/juliakm/Code/golden/test-library/bin/Debug/netcoreapp2.2/xunit.runner.utility.netcoreapp10.dll
+/Users/juliakm/Code/golden/test-library/bin/Debug/netcoreapp2.2/test-library.deps.json
+/Users/juliakm/Code/golden/test-library/bin/Debug/netcoreapp2.2/test-library.runtimeconfig.json
+/Users/juliakm/Code/golden/test-library/bin/Debug/netcoreapp2.2/test-library.runtimeconfig.dev.json
+/Users/juliakm/Code/golden/test-library/bin/Debug/netcoreapp2.2/test-library.dll
+/Users/juliakm/Code/golden/test-library/bin/Debug/netcoreapp2.2/test-library.pdb
+/Users/juliakm/Code/golden/test-library/bin/Debug/netcoreapp2.2/library.dll
+/Users/juliakm/Code/golden/test-library/bin/Debug/netcoreapp2.2/library.pdb
+/Users/juliakm/Code/golden/test-library/obj/Debug/netcoreapp2.2/test-library.csprojAssemblyReference.cache
+/Users/juliakm/Code/golden/test-library/obj/Debug/netcoreapp2.2/test-library.AssemblyInfoInputs.cache
+/Users/juliakm/Code/golden/test-library/obj/Debug/netcoreapp2.2/test-library.AssemblyInfo.cs
+/Users/juliakm/Code/golden/test-library/obj/Debug/netcoreapp2.2/test-library.csproj.CopyComplete
+/Users/juliakm/Code/golden/test-library/obj/Debug/netcoreapp2.2/test-library.dll
+/Users/juliakm/Code/golden/test-library/obj/Debug/netcoreapp2.2/test-library.pdb

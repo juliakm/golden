@@ -1,0 +1,13 @@
+/Users/juliakm/Code/golden/app/bin/Debug/netcoreapp2.2/app.deps.json
+/Users/juliakm/Code/golden/app/bin/Debug/netcoreapp2.2/app.runtimeconfig.json
+/Users/juliakm/Code/golden/app/bin/Debug/netcoreapp2.2/app.runtimeconfig.dev.json
+/Users/juliakm/Code/golden/app/bin/Debug/netcoreapp2.2/app.dll
+/Users/juliakm/Code/golden/app/bin/Debug/netcoreapp2.2/app.pdb
+/Users/juliakm/Code/golden/app/bin/Debug/netcoreapp2.2/library.dll
+/Users/juliakm/Code/golden/app/bin/Debug/netcoreapp2.2/library.pdb
+/Users/juliakm/Code/golden/app/obj/Debug/netcoreapp2.2/app.csprojAssemblyReference.cache
+/Users/juliakm/Code/golden/app/obj/Debug/netcoreapp2.2/app.AssemblyInfoInputs.cache
+/Users/juliakm/Code/golden/app/obj/Debug/netcoreapp2.2/app.AssemblyInfo.cs
+/Users/juliakm/Code/golden/app/obj/Debug/netcoreapp2.2/app.csproj.CopyComplete
+/Users/juliakm/Code/golden/app/obj/Debug/netcoreapp2.2/app.dll
+/Users/juliakm/Code/golden/app/obj/Debug/netcoreapp2.2/app.pdb
