@@ -40,6 +40,7 @@ steps:
   displayName: 'dotnet test'
   inputs:
     command: test
+    arguments: '--configuration $(BuildConfiguration) /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=$(Build.SourcesDirectory)\TestResults\Coverage\'
     projects: '**/test-library/*.csproj'
 
 
