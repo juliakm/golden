@@ -44,16 +44,6 @@ steps:
     #nobuild: true
     projects: '**/test-library/*.csproj'
 
-# - task: DotNetCoreCLI@2
-#   displayName: 'dotnet publish'
-#   inputs:
-#     command: publish
-#     publishWebProjects: false
-#     projects: '**/test-library/*.csproj'
-#     arguments: '-o testpath'
-#     zipAfterPublish: false
-#     modifyOutputPath: true
-
 - task: PublishCodeCoverageResults@1
   displayName: 'Publish code coverage report'
   inputs:
